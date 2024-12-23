@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-DEVICE_PATH := device/xiaomi/amber
+DEVICE_PATH := device/xiaomi/agate
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
@@ -33,7 +33,7 @@ TARGET_2ND_CPU_ABI2 := armeabi
 TARGET_2ND_CPU_VARIANT := cortex-a55
 
 # Bootloader
-TARGET_BOOTLOADER_BOARD_NAME := amber
+TARGET_BOOTLOADER_BOARD_NAME := agate
 TARGET_NO_BOOTLOADER := true
 TARGET_USES_UEFI := true
 
@@ -150,7 +150,6 @@ TWRP_INCLUDE_LOGCAT := true
 TARGET_USES_LOGD := true
 TW_BRIGHTNESS_PATH := "/sys/class/leds/lcd-backlight/brightness"
 TW_DEFAULT_BRIGHTNESS := 1200
-TW_DEVICE_VERSION := beta
 TW_EXCLUDE_APEX := true
 TW_EXCLUDE_DEFAULT_USB_INIT := true
 TW_EXTRA_LANGUAGES := true
@@ -164,3 +163,5 @@ TW_NO_HAPTICS := true
 TW_SCREEN_BLANK_ON_BOOT:= true
 TW_THEME := portrait_hdpi
 TWRP_INCLUDE_LOGCAT := true
+
+
